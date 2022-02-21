@@ -1,0 +1,1 @@
+pandoc --filter pandoc-numbering -V geometry:margin=1.25in -V numbersections --latex-engine=xelatex --template=../../../pandoc-templates/default.latex groups_sessions_terminals.md -o groups_sessions_terminals.pdf
